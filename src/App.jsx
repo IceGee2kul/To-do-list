@@ -59,7 +59,7 @@ function App() {
     <div className={`app ${darkMode ? "dark" : ""}`}>
       <div className="app-container">
         <div className="top-header">
-          <h1>Professional To-Do List</h1>
+          <h1>To-Do List</h1>
           <button className="mode-toggle" onClick={() => setDarkMode(!darkMode)}>
             {darkMode ? "☀ Light Mode" : "🌙 Dark Mode"}
           </button>
