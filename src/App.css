@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  width: 100%;
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
 }
@@ -24,8 +25,8 @@ html, body {
 
 
 .app-container {
-  width: 95%; 
-  max-width: 900px;
+  width: 100%; 
+  max-width: 1000px;
   height: 100%;
   background: #f9f9f9;
   border-radius: 12px;
@@ -178,7 +179,7 @@ button:hover {
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
-  animation: slideIn 0.5s ease-out; /* New task animation */
+  animation: slideIn 0.5s ease-out; 
 }
 
 
@@ -258,7 +259,7 @@ button:hover {
   color: #ccc;
 }
 
-/* Empty state message */
+
 .task-list p {
   text-align: center;
   font-style: italic;
@@ -267,13 +268,13 @@ button:hover {
   animation: fadeIn 0.5s ease-in-out;
 }
 
-/* Keyframes for fade-in effect */
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
 }
 
-/* Media query for very small screens (phones in portrait mode) */
+
 @media (max-width: 480px) {
   .app-container {
     padding: 15px;
